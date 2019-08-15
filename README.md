@@ -9,7 +9,9 @@ R. Çağlayan Demirci
 
 Standart java compilation with the main class name which is Driver.java, with 5 arguments.
 
+```
   ~$ javac *.java
+```
 
 As arguments, it is essential that number of them will be exactly 5, as follows:
 - An input file name which is the .ppm format image, exactly after a flag -i. Input file must contain ".ppm" at the end.
@@ -21,8 +23,10 @@ IMPORTANT: -c and -e must not be used together. Each command has to contain one 
 
 So:
 
+```
   ~$ java Driver -i inputExample.ppm -c -o -outputExample
   ~$ java Driver -i inputExample.ppm -e -o -outputExample
+```
 
 ### Known bugs and limitations:
 
