@@ -23,7 +23,7 @@ public class Driver {
 
                 // j values can be changed willingly
                 // 0 is image itself, 1 appears 4 squares (node depths 1)
-                // so on. 
+                // so on.
                 for (int j = 1; j < 9; j++) {
                     output_file_name = output_file + "-" + j + ".ppm";
                     // takes time
@@ -35,6 +35,16 @@ public class Driver {
             if (args[i].equals("-e")) {
                 System.out.println("Processing... Please wait");
                 img.edge_detection(output_file + ".ppm");
+                System.out.println("Process finished succesfully.");
+            }
+            if (args[i].equals("-n")) {
+                System.out.println("Processing... Please wait");
+                img.negative(output_file + ".ppm");
+                System.out.println("Process finished succesfully.");
+            }
+            if (args[i].equals("-g")) {
+                System.out.println("Processing... Please wait");
+                img.greyscale(output_file + ".ppm");
                 System.out.println("Process finished succesfully.");
             }
         }
