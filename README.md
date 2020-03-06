@@ -42,32 +42,32 @@ Original file (input):
 
 8 compressed steps:
 
-![](ExampleOutputs/analyzedRick-1.jpg)
+![](ExampleOutputs/rick/jpg/analyzedRick-1.jpg)
 
-![](ExampleOutputs/analyzedRick-2.jpg)
+![](ExampleOutputs/rick/jpg/analyzedRick-2.jpg)
 
-![](ExampleOutputs/analyzedRick-3.jpg)
+![](ExampleOutputs/rick/jpg/analyzedRick-3.jpg)
 
-![](ExampleOutputs/analyzedRick-4.jpg)
+![](ExampleOutputs/rick/jpg/analyzedRick-4.jpg)
 
-![](ExampleOutputs/analyzedRick-5.jpg)
+![](ExampleOutputs/rick/jpg/analyzedRick-5.jpg)
 
-![](ExampleOutputs/analyzedRick-6.jpg)
+![](ExampleOutputs/rick/jpg/analyzedRick-6.jpg)
 
-![](ExampleOutputs/analyzedRick-7.jpg)
+![](ExampleOutputs/rick/jpg/analyzedRick-7.jpg)
 
-![](ExampleOutputs/analyzedRick-8.jpg)
+![](ExampleOutputs/rick/jpg/analyzedRick-8.jpg)
 
 Negative:
 
-![](ExampleOutputs/negativeRick.jpg)
+![](ExampleOutputs/rick/jpg/negativeRick.jpg)
 
 Monochromatic (greyscale):
 
-![](ExampleOutputs/monochromaticRick.jpg)
+![](ExampleOutputs/rick/jpg/monochromaticRick.jpg)
 
 Edge Detection:
 
-This type of images are being used in big data storages. 
+This type of images are being used in big data storages.
 
 ![](ExampleOutputs/edgeDetectedRick.jpg)
