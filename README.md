@@ -70,4 +70,4 @@ Edge Detection:
 
 This type of images are being used in big data storages.
 
-![](ExampleOutputs/edgeDetectedRick.jpg)
+![](ExampleOutputs/rick/jpg/edgeDetectedRick.jpg)
