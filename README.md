@@ -32,4 +32,42 @@ So:
 - I did not control how many times or how many depth node I get while printing 8 compressed files. Program, prints automatically 4, 4^2, 4^3... 4^8 smallest necessary squares. That means, if the image is small enough, at some point program may prints images that have same resolution. Or, in the opposite situation, even 8th version could not reach the highest resolution (the case that tree's smallest square = 1 pixel). But all can be handled. 4^j values in the for loop can be changed in my Driver program where the part beginning "j values can be changed willingly". It is 1<=j<9 by default.
 - Threshold value is 5 by default. Prints proper images when it is like that. It can be changed, either.
 
-![](ExampleInputs/rick.ppm)
+### Exapmle Input and Outputs
+
+[ GitHub does not open big ppm images, therefore I put converted to jpg versions of the input and the outputs. ]
+
+Original file (input):
+
+![](ExampleInputs/rick.jpg)
+
+8 compressed steps:
+
+![](ExampleOutputs/analyzedRick-1.jpg)
+
+![](ExampleOutputs/analyzedRick-2.jpg)
+
+![](ExampleOutputs/analyzedRick-3.jpg)
+
+![](ExampleOutputs/analyzedRick-4.jpg)
+
+![](ExampleOutputs/analyzedRick-5.jpg)
+
+![](ExampleOutputs/analyzedRick-6.jpg)
+
+![](ExampleOutputs/analyzedRick-7.jpg)
+
+![](ExampleOutputs/analyzedRick-8.jpg)
+
+Negative:
+
+![](ExampleOutputs/negativeRick.jpg)
+
+Monochromatic (greyscale):
+
+![](ExampleOutputs/monochromaticRick.jpg)
+
+Edge Detection:
+
+This type of images are being used in big data storages. 
+
+![](ExampleOutputs/edgeDetectedRick.jpg)
