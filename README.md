@@ -1,4 +1,4 @@
-# Quadtree-ppm-java
+# quadtree-ppm-java
 A Java program to analyze PPM format (Portable Pixmap Image File) images and change them into modified versions of them by methods: compress (not by size but view), greyscale, negative and edge detection.
 
 This program is written in order to understand and use QuadTree data structure, as a computer science assignment.
